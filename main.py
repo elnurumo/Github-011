@@ -1,4 +1,4 @@
-Klaviaturadan daxil edilmiş 2-dən böyük tam ədədin sadə vururqlarının alt-alta çapı
+# Klaviaturadan daxil edilmiş 2-dən böyük tam ədədin sadə vururqlarının alt-alta çapı
 
 # n = int(input())
 # s_vuruq = 2
@@ -169,3 +169,16 @@ Klaviaturadan daxil edilmiş 2-dən böyük tam ədədin sadə vururqlarının a
 #     if i.isalpha():
 #         digit_num = 16* digit_num + ord(i) - ord('A') + 10
 
+
+
+#  94 16-lıq dan 10-luq say sisteminə
+
+n = input()
+hex_number = '0123456789ABCDEF'
+hex_number = list(hex_number)
+nl = len(n) - 1
+s = 0
+for i in n:
+    s = s + hex_number.index(i) * 16**nl
+    nl = nl -1
+print(s)
