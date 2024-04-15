@@ -171,7 +171,7 @@
 
 
 
-#  94 16-lıq dan 10-luq say sisteminə
+#  94 16-lıq dan 10-luq say sisteminə (DİM - ə nəzərən)
 
 n = input()
 hex_number = '0123456789ABCDEF'
